@@ -42,7 +42,7 @@ static Handle CustomRoundRicochet_MainWeapon()
 	TF2Items_SetQuality(hndl, 4);
 	TF2Items_SetNumAttributes(hndl, 8);
 
-	TF2Items_SetAttribute(hndl, 0, 5, 2.0);     // slower firing speed
+	TF2Items_SetAttribute(hndl, 0, 5, 1.5);     // slower firing speed
 	TF2Items_SetAttribute(hndl, 1, 303, -1.0);  // no reloads
 	TF2Items_SetAttribute(hndl, 2, 2, 10.0);	// +900% damage bonus
 	TF2Items_SetAttribute(hndl, 3, 106, 0.0);   // +100% more accurate
